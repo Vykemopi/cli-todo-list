@@ -1,7 +1,6 @@
 from typing import TypedDict, List
 
 class Task(TypedDict):
-    """Represents a single todo task."""
     title: str
     done: bool
     priority: int
@@ -10,6 +9,7 @@ tasks: List[Task] = []
 
 
 def print_menu() -> None:
+    """Display the main menu options."""
     print("\n--- Daily Task Manager (oT-oT) ---")
     print("1 - Add new task")
     print("2 - Show all tasks")
@@ -21,7 +21,7 @@ def print_menu() -> None:
 
 
 def input_priority() -> int:
-    """Get a valid priority from user."""
+    """Prompt user for a valid priority value (1, 2, or 3)."""
     while True:
         try:
             p = int(input("Enter priority (1=High, 2=Medium, 3=Low): "))
@@ -33,7 +33,7 @@ def input_priority() -> int:
 
 
 def add_task() -> None:
-    """Add a new task, prevent duplicate titles."""
+    """Add a new task to the list, preventing duplicate titles and empty input."""
     title = input("Task title: ").strip()
     if not title:
         print("Title cannot be empty.")
@@ -47,7 +47,7 @@ def add_task() -> None:
 
 
 def show_tasks() -> None:
-    """Show all tasks, sorted by priority."""
+    """Display all tasks, sorted by priority (1=High first)."""
     if not tasks:
         print("No tasks found.")
         return
@@ -59,7 +59,7 @@ def show_tasks() -> None:
 
 
 def toggle_task() -> None:
-    """Toggle the done status of a task."""
+    """Toggle the completion status of a selected task."""
     if not tasks:
         print("No tasks to toggle.")
         return
@@ -75,7 +75,7 @@ def toggle_task() -> None:
 
 
 def delete_task() -> None:
-    """Delete a task by its number."""
+    """Delete a task from the list by its number."""
     if not tasks:
         print("No tasks to delete.")
         return
@@ -91,13 +91,13 @@ def delete_task() -> None:
 
 
 def report() -> None:
-    """Show count of done and undone tasks."""
+    """Display the count of completed and uncompleted tasks."""
     done_count = sum(1 for t in tasks if t["done"])
     undone_count = len(tasks) - done_count
     print(f"Done: {done_count} | Undone: {undone_count}")
 
 def search_tasks() -> None:
-    """Search tasks by keyword."""
+    """Search for tasks by a keyword in their title."""
     keyword = input("Enter keyword to search: ").strip().lower()
     if not keyword:
         print("Keyword cannot be empty.")
@@ -113,7 +113,7 @@ def search_tasks() -> None:
 
 
 def main() -> None:
-    """Main loop for the CLI todo manager."""
+    """Main loop for the CLI todo manager. Handles user input and menu navigation."""
     while True:
         print_menu()
         try:
@@ -139,5 +139,6 @@ def main() -> None:
         else:
             print("Invalid option. Try again.")
 
+# Entry point for the script
 if __name__ == "__main__":
     main()

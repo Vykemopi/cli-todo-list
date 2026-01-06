@@ -1,6 +1,6 @@
 # Daily Task Manager (oT-oT)
 
-A simple, type-safe Python CLI application for managing your daily tasks. Add, view, update, delete, search, and report on your todos—all from the terminal.
+A simple, type-safe Python CLI application for managing your daily tasks. Add, view, update, delete, search, and report on your todos. All from the terminal.
 
 ## Features
 
