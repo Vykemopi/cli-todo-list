@@ -1,6 +1,7 @@
+import builtins
+
 import lTCT
 
-# Prepare sample tasks
 lTCT.tasks.clear()
 lTCT.tasks.extend([
     {"title": "Task A", "done": False, "priority": 2},
@@ -15,8 +16,7 @@ print('\nprint_grouped_tasks():')
 lTCT.print_grouped_tasks()
 print('\nfind_matching_tasks("task") ->', lTCT.find_matching_tasks('task'))
 print('\nsearch_tasks output:')
-# call search_tasks but monkeypatch input by temporarily replacing builtins.input
-import builtins
+
 orig_input = builtins.input
 builtins.input = lambda prompt='': 'task'
 try:
