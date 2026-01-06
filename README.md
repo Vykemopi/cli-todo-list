@@ -69,11 +69,6 @@ Select an option (0-6): 0
 Exiting. Goodbye!
 ```
 
-## Project Structure
-
-- `lTCT.py` — Main Python source code
-- `PROJECT.md` — Project description (in Persian)
-
 ## Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
