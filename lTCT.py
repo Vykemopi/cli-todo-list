@@ -139,6 +139,5 @@ def main() -> None:
         else:
             print("Invalid option. Try again.")
 
-# Entry point for the script
 if __name__ == "__main__":
     main()
